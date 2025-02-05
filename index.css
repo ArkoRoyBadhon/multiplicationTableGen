@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+}
+
+.header_style {
+    height: 60px;
+    width: 100%;
+    background-color: #70489A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header_style a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.main_body {
+    background: linear-gradient(45deg, #6978E2, #744FA7);
+    min-height: calc(100vh - 140px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    font-size: 50px;
+    padding-bottom: 40px;
+}
+
+.content {
+    width: 800px;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.content_body {
+    width: 400px;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    border-bottom: 2px solid #70489A;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    outline-color: #70489A;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #70489A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+h6 {
+    color: black;
+    margin: 20px 0px;
+    font-size: 18px;
+}
+.row_style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+    background: #ccc;
+    border-radius: 5px;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+
+footer {
+    background: #060606;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+}
+
+.blog_header {
+    text-align: center;
+    margin: 20px 0px;
+    font-size: 30px;
+    color: white;
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding: 20px 0px;
+}
+
+.blog_content {
+    font-weight: 600;
+    margin: 5px 0px;
+    font-size: 20px;
+}

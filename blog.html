@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 3 - arko</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="header_style" S>
+      <a href="/" class="">Home</a>
+      <a href="./blog.html" class="">Blogs</a>
+    </header>
+    <main class="main_body">
+      <div class="content">
+        <h3 class="blog_header">JavaScript Questions</h3>
+        <p class="blog_content">
+          1. What is the difference between let, const and var in JavaScript?
+        </p>
+        <p class="">
+          ==> let, const, var all are the variable declaration keywords in
+          JavaScript. Below i am discuss the key features of these declaration
+          keywords -
+          <br /><br />
+
+          <strong>Var: </strong> "var" is function scoped. "var" can be
+          reassigned and redeclared. <br />Both let and const are block scoped.
+          <br /><br />
+          <strong>Let: </strong> "let" a block scoped variable. "let" can be
+          reassigned but cannot be redeclared at the same scope.
+
+          <br />
+          <br />
+
+          <strong>Const: </strong> "const" is also a block scoped variable.
+          "const" cannot be reassigned but can be redeclared at the same scope.
+        </p>
+        <br />
+        <p class="blog_content">
+          2. What is the difference between find(), filter(), method?
+        </p>
+        <p class="">
+          ==> find() and filter() are both introduced in ES6. we can use them in our
+          code in different purposes. I give some idea below -
+          <br />
+          <br />
+          <strong>find(): </strong>
+          "find()" method returns the first element of an array that satisfies the given condition. If this method finds its first match then the method close the iteration. It means if the given array is too long but it finds a matched value then it not check the rest of the array.
+          <br />
+          <br />
+
+          <strong>filter(): </strong>
+          "filter()" method returns an array of elements that satisfy the condition. We also need an array to perform this method. If the array is longer but the exprected result found at a early index still it checks the whole array and returns the outpur array.
+
+          <br>
+          <br>
+
+          If we need to check one element then we should use find() method and if we need a collection of elements then we should use filter() method. for one element find() method is more faster than filter() method.
+        </p>
+        <br />
+        <p class="blog_content">
+          3. How do you select an element in the dom using JavaScript? Name a
+          few Methods.
+        </p>
+        <p class="">
+          ==> There are many methods to select an element in
+          the DOM. they are - <br />
+          a. document.getElementById() <br />
+          b. document.getElementsByClassName() <br />
+          c. document.getElementsByTagName() <br />
+          d. document.querySelector() <br />
+          e. document.querySelectorAll()
+        </p>
+      </div>
+    </main>
+    <footer class="">
+      <p>&copy; 2025 Multiplication Table Generator. All Rights Reserved.</p>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
