@@ -20,6 +20,12 @@
     text-decoration: none;
     color: white;
     font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.header_style a:hover {
+    background: #744FA7;
 }
 
 .main_body {
@@ -79,6 +85,10 @@ button {
     border-radius: 5px;
     cursor: pointer;
     white-space: nowrap;
+}
+
+button:hover {
+    background-color: #744FA7;
 }
 
 h6 {
